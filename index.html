@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Sərt karton istehsalı/ karton istehsalı / karton istehsalı fabriki</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="line">
+                <div class="hamburger" onclick="toggleMenu()">
+                    ☰
+                </div>
+                <div class="close-btn" onclick="toggleMenu()">×</div>
+                <div class="logo">
+                    <img src="./img/logo.png" alt="Logo">
+                </div>
+            </div>
+
+
+
+            <nav>
+                <a href="#">Ana Səhifə</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Şirkət haqqında <span class="icon">▾</span></button>
+                    <div class="dropdown-content">
+                        <a href="#">Tariximiz</a>
+                    </div>
+                </div>
+
+                <a href="#">Xidmətlər</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Məhsullar <span class="icon">▾</span></button>
+                    <div class="dropdown-content">
+                        <a href="#">Karton Seriyası</a>
+                        <a href="#">Tort Altlıqları</a>
+                        <a href="#">Tort Qutuları</a>
+                        <a href="#">Metalized Seriya</a>
+                        <a href="#">Xroma Pet</a>
+                        <a href="#">Balıq Altlıqları</a>
+                    </div>
+                </div>
+                <a href="#">Yeniliklər</a>
+                <a href="#">Əlaqə</a>
+            </nav>
+
+            <div class="info">
+                <div class="lang-select">
+                    <a href="#">RU</a> | <a href="#">EN</a>
+                </div>
+                <div class="phone">(+994 70) 870 31 99</div>
+                <div class="contact">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span>Sorğu göndər !</span>
+                </div>
+            </div>
+            <div class="menu">
+                <nav class="nav2">
+                    <a href="#">Ana Səhifə</a>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Şirkət haqqında <span class="icon">▾</span></button>
+                        <div class="dropdown-content">
+                            <a href="#">- Tariximiz</a>
+                        </div>
+                    </div>
+
+                    <a href="#">Xidmətlər</a>
+
+                    <a href="#">Yeniliklər</a>
+                    <a href="#">Əlaqə</a>
+                </nav>
+                <div class="contacts">
+                    <div id="tel">(+994 70) 870 31 99</div>
+                    <div class="contact">
+                        <i class="fas fa-paper-plane"></i>
+
+                        <span>Sorğu göndər !</span>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay" onclick="toggleMenu()"></div>
+            <div class="info2">
+                <div class="lang-select">
+                    <a href="#">RU</a> | <a href="#">EN</a>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+    <section class="new-masthead">
+        <div class="wrapper">
+            <h1>SƏRT KARTON İSTEHSALINDA LİDER</h1>
+        </div>
+
+
+        <div class="carousel masthead--margin wrapper">
+            <div class="slides"></div>
+            <!-- Slide 1: Image -->
+            <div class="slide active">
+                <img src="./img/slider-1.jpg" alt="">
+                <div class="content">
+                    <h2>Peşəkarlıqla Qurulan Güvən.</h2>
+                    <p>2019-cu ildən sərt karton sahəsində ixtisaslaşmış şirkət.</p>
+                    <br> <a href="#" class="btn">DAHA ƏTRAFLI →</a>
+                </div>
+            </div>
+
+            <!-- Slide 2: Video -->
+            <div class="slide">
+                <img src="./img/slider-2.jpg">
+
+                <div class="content">
+                    <h2>Karton İstehsalında Sərhədsİz Yenİlİklər</h2>
+                    <p>Ekoloji təmiz, yüksək keyfiyyətli və dayanıqlı həllərlə biznesinizi irəli daşıyın.</p>
+                    <br> <a href="#" class="btn">DAHA ƏTRAFLI →</a>
+                </div>
+            </div>
+
+            <!-- Slide 3: Image -->
+
+            <div class="slide">
+                <img src="./img/video.gif">
+
+                <div class="content">
+                    <h2>Gələcəyə Doğru Sİzİnlə Birlİkdə.</h2>
+                    <p>Davamlılıq və çevik istehsal strategiyaları.</p>
+                    <br>
+                    <a href="#" class="btn">DAHA ƏTRAFLI →</a>
+                </div>
+            </div>
+            <!-- Bottom Bar -->
+            <div class="bottom-bar">
+                <div class="slide-count"><span id="current">01</span> - <span id="total">03</span></div>
+                <div class="progress-line"></div>
+                <div class="arrows">
+                    <button id="prev">❮</button>
+                    <button id="next">❯</button>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+
+    </section>
+    <section class="advantages-section">
+        <div class="advantages-container">
+            <div class="advantages_cardsMain">
+                <div class="advantages_card ">
+                    <div class="advantages_img">
+                        <img src="./img/genis-mehssxul.png" width="80px" height="80px" alt="">
+                    </div>
+                    <div class="advantages_title">
+                        <h1>Geniş məhsul çeşidi</h1>
+                        <p>Məhsul çeşidi müxtəlifdir – istənilən ölçü və formada karton qutular istehsal edilir.</p>
+                    </div>
+
+                </div>
+                <div class="advantages_card ">
+                    <div class="advantages_img">
+                        <img src="./img/texnologiyaa.png" width="80px" height="80px" alt="">
+                    </div>
+                    <div class="advantages_title">
+                        <h1>Texnoloji üstünlük</h1>
+                        <p>Hər bir sifariş müasir texnoloji avadanlıqlarla, dəqiqlik və sürətlə icra edilir.</p>
+                    </div>
+
+                </div>
+                <div class="advantages_card">
+                    <div class="advantages_img">
+                        <img src="./img/team.png" width="80px" height="80px" alt="">
+                    </div>
+                    <div class="advantages_title">
+                        <h1>Peşəkar komanda</h1>
+                        <p>İstehsalat prosesi təcrübəli və peşəkar mütəxəssislər tərəfindən həyata keçirilir</p>
+                    </div>
+
+                </div>
+                <div class="advantages_card ">
+                    <div class="advantages_img">
+                        <img src="./img/lofodbadha.png" width="80px" height="80px" alt="">
+                    </div>
+                    <div class="advantages_title">
+                        <h1>Keyfiyyətli materiallar</h1>
+                        <p>İstehsalda yalnız yüksək keyfiyyətli və davamlı karton materiallardan istifadə olunur.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="mainAbout" class="about-section" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="about-container">
+            <div class="grid-box">
+                <div class="bloqTitleButton">
+                    <div class="bloqTitle">
+                        <h2 title="производство твердого картона,производство картона, производство картона в Азербайджане завод по производству картона,Высечка картона,Ламинирование"
+                            class="fs-1 fw-semibold">Haqqımızda</h2>
+                    </div>
+
+                </div>
+                <div class="about-grid">
+                    <!-- Pathways Card -->
+                    <div class="about-card card-pathways">
+                        <div class="card-content">
+                            <h3 class="card-title">Hədəfimiz</h3>
+                            <p class="card-text">
+                                Hədəfimiz yerli və beynəlxalq bazarlarda güclü mövqe qazanmaqdır.
+                            </p>
+                        </div>
+                        <div class="card-image image-large">
+                            <img loading="lazy" src="./img/hag1.png" alt="Office Team">
+                        </div>
+                    </div>
+
+                    <!-- Teamwork Card -->
+                    <div class="about-card card-teamwork">
+                        <div class="card-content">
+                            <h3 class="card-title">Uğurumuzun arxasındakı güc</h3>
+                            <p class="card-text">
+                                HESAM PAPER-in uğurunun təməlində peşəkar komanda ruhu, keyfiyyətə sadiqlik və davamlı
+                                inkişafa yönəlmiş yanaşma dayanır.
+                            </p>
+                        </div>
+                        <div class="card-image image-medium">
+                            <img loading="lazy" src="./img/hag2.png" alt="Group Team">
+                        </div>
+                    </div>
+                    <!-- Wishlist Card -->
+                    <div class="about-card card-wishlist">
+                        <div class="card-content card-wishlist-content">
+                            <h3 title="производство твердого картона,производство картона, производство картона в Азербайджане завод по производству картона,Высечка картона,Ламинирование"
+                                class="card-title">Missiyamız</h3>
+                            <p class="card-text">
+                                Ən yaxşı və ən keyfiyyətli sərt karton məhsullarını istehsal edərək, qablaşdırma, çap və
+                                reklam kimi müxtəlif sənaye sahələrinin ehtiyaclarını qarşılamaq əsas
+                                hədəflərimizdəndir.
+                            </p>
+                        </div>
+                        <div class="card-image image-relative">
+                            <img loading="lazy" src="./img/hag3.png" alt="Discover">
+                        </div>
+                    </div>
+                    <!-- Company Intro -->
+                    <div class="company-intro-card">
+                        <div class="company-intro">
+                            <h2 title="производство твердого картона,производство картона, производство картона в Азербайджане завод по производству картона,Высечка картона,Ламинирование"
+                                class="card-title">Niyə biz ?</h2>
+                            <p class="card-text">
+                                HESAM PAPER şirkəti 2019-cu ildə yüksək keyfiyyətli müxtəlif növ sərt karton istehsalı
+                                və tədarükü məqsədi ilə qurulub. Biz qabaqcıl texnologiyalardan və yüksək keyfiyyətli
+                                xammaldan istifadə edərək, davamlı və beynəlxalq standartlara uyğun məhsullar təqdim
+                                etmək üçün daim&nbsp;səy&nbsp;göstəririk.
+                            </p>
+                            <a href="/about" class="button-more">Tariximiz</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="products-container">
+            <div class="bloqTitleButton">
+                <div class="bloqTitle">
+                    <h2 class="fs-1 fw-semibold">Məhsullar</h2>
+                </div>
+                <a title="производство твердого картона,производство картона, производство картона в Азербайджане завод по производству картона,Высечка картона,Ламинирование"
+                    href="/yenilikler">
+                </a>
+            </div>
+            <div class="product-row ">
+                <div class="col-md-4 col-sm-6 center">
+                    <div class="new-product-card position-relative">
+                        <img class="bg-img w-100" src="https://hesampaper.com/uploads/icons/karton-seriyasi.jpg"
+                            alt="Karton Seriyası" height="400px">
+                        <span>Karton Seriyası</span>
+                        <div class="new-product-content text-white">
+                            <h4 class="fs-2">Karton Seriyası</h4>
+                            <a href="https://hesampaper.com/mehsullar/karton-seriyasi/">Daha ətraflı <svg width="15"
+                                    height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M13.2575 8.41392L13.2575 8.41389L8.30779 13.3638L6.89342 11.9494L10.9563 7.88694L0.600586 7.88694L0.600586 6.04079L10.8844 6.04079L6.89356 2.04996L8.30777 0.635742L14.6717 6.9997L13.2575 8.41392Z"
+                                        fill="#003A70"></path>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 center">
+                    <div class="new-product-card position-relative">
+                        <img class="bg-img w-100" src="https://hesampaper.com/uploads/icons/pa5.jpg"
+                            alt="Tort Altlıqları" height="400px">
+                        <span>Tort Altlıqları</span>
+                        <div class="new-product-content text-white">
+                            <h4 class="fs-2">Tort Altlıqları</h4>
+                            <a href="https://hesampaper.com/mehsullar/tort-altliqlari/">Daha ətraflı <svg width="15"
+                                    height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M13.2575 8.41392L13.2575 8.41389L8.30779 13.3638L6.89342 11.9494L10.9563 7.88694L0.600586 7.88694L0.600586 6.04079L10.8844 6.04079L6.89356 2.04996L8.30777 0.635742L14.6717 6.9997L13.2575 8.41392Z"
+                                        fill="#003A70"></path>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 center">
+                    <div class="new-product-card position-relative">
+                        <img class="bg-img w-100" src="https://hesampaper.com/uploads/icons/pk1-2.jpg"
+                            alt="Tort Qutuları" height="400px">
+                        <span>Tort Qutuları</span>
+                        <div class="new-product-content text-white">
+                            <h4 class="fs-2">Tort Qutuları</h4>
+                            <a href="https://hesampaper.com/mehsullar/tort-qutular/">Daha ətraflı <svg width="15"
+                                    height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M13.2575 8.41392L13.2575 8.41389L8.30779 13.3638L6.89342 11.9494L10.9563 7.88694L0.600586 7.88694L0.600586 6.04079L10.8844 6.04079L6.89356 2.04996L8.30777 0.635742L14.6717 6.9997L13.2575 8.41392Z"
+                                        fill="#003A70"></path>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 center">
+                    <div class="new-product-card position-relative">
+                        <img class="bg-img w-100" src="	https://hesampaper.com/uploads/posts/2025-05/metal.jpg"
+                            alt="Metalized Seriya" height="400px">
+                        <span>Metalized Seriya</span>
+                        <div class="new-product-content text-white">
+                            <h4 class="fs-2">Metalized Seriya</h4>
+                            <a href="https://hesampaper.com/mehsullar/metalladrlm-seriya/">Daha ətraflı <svg width="15"
+                                    height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M13.2575 8.41392L13.2575 8.41389L8.30779 13.3638L6.89342 11.9494L10.9563 7.88694L0.600586 7.88694L0.600586 6.04079L10.8844 6.04079L6.89356 2.04996L8.30777 0.635742L14.6717 6.9997L13.2575 8.41392Z"
+                                        fill="#003A70"></path>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 center">
+                    <div class="new-product-card position-relative">
+                        <img class="bg-img w-100" src="https://hesampaper.com/uploads/icons/kr1.jpg" alt="Xroma PET"
+                            height="400px">
+                        <span>Xroma PET</span>
+                        <div class="new-product-content text-white">
+                            <h4 class="fs-2">Xroma PET</h4>
+                            <a href="https://hesampaper.com/mehsullar/kroma-pet/">Daha ətraflı <svg width="15"
+                                    height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M13.2575 8.41392L13.2575 8.41389L8.30779 13.3638L6.89342 11.9494L10.9563 7.88694L0.600586 7.88694L0.600586 6.04079L10.8844 6.04079L6.89356 2.04996L8.30777 0.635742L14.6717 6.9997L13.2575 8.41392Z"
+                                        fill="#003A70"></path>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 center">
+                    <div class="new-product-card position-relative">
+                        <img class="bg-img w-100" src="https://hesampaper.com/uploads/icons/st3-2.jpg"
+                            alt="Balıq Altlıqları" height="400px">
+                        <span>Balıq Altlıqları</span>
+                        <div class="new-product-content text-white">
+                            <h4 class="fs-2">Balıq Altlıqları</h4>
+                            <a href="https://hesampaper.com/mehsullar/somon-altlqlar/">Daha ətraflı <svg width="15"
+                                    height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M13.2575 8.41392L13.2575 8.41389L8.30779 13.3638L6.89342 11.9494L10.9563 7.88694L0.600586 7.88694L0.600586 6.04079L10.8844 6.04079L6.89356 2.04996L8.30777 0.635742L14.6717 6.9997L13.2575 8.41392Z"
+                                        fill="#003A70"></path>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="new-section">
+        <div class="new-container">
+            <div class="new-title-button">
+                <div class="new-title">
+                    <h1>Yeniliklər</h1>
+                </div>
+                <a title="производство твердого картона,производство картона, производство картона в Азербайджане завод по производству картона,Высечка картона,Ламинирование"
+                    href="/yenilikler">
+                    <div class="bloqButton">
+                        Hamısına bax
+                    </div>
+                </a>
+            </div>
+            <div class="blogMain">
+                <div class="blog-LeftCard">
+                    <a href="https://hesampaper.com/yenilikler/79-qutunun-formas-sata-nec-tsir-edir.html">
+                        <picture>
+                            <img src="https://hesampaper.com/uploads/posts/2025-06/711iast5qjl__ac_ul800_ql65_.jpg"
+                                alt="Qutunun Forması Satışa Necə Təsir Edir?"
+                                href="Qutunun Forması Satışa Necə Təsir Edir?">
+                        </picture>
+                        <h2>Qutunun Forması Satışa Necə Təsir Edir?
+                        </h2>
+                        <div class="blog-leftCardFooter mt-4">
+                            <p class="blog-detail">Daha ətraflı</p>
+                            <p class="blog-date">17-06-25</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-right">
+                    <a href="https://hesampaper.com/yenilikler/16-karton-v-plastik-qabladrma-arasndak-frqlr.html"
+                        class="blog-rightCard"
+                        style="background-image: url('https://hesampaper.com/uploads/posts/2025-05/shutterstock_763699927-boxes.jpg');">
+                        <h3>Karton və plastik qablaşdırma arasındakı fərqlər</h3>
+                        <div class="blog-leftCardFooter">
+                            <p class="blog-detail">Daha ətraflı</p>
+                            <p class="blog-date">24-05-25</p>
+                        </div>
+                    </a>
+
+                    <a href="https://hesampaper.com/yenilikler/6-test-right-4.html" class="blog-rightCard"
+                        style="background-image: url('https://hesampaper.com/uploads/posts/2025-05/recyclable-packaging-3-shutterstock_2392811495-1024x576.avif');">
+                        <h3>Ekoloji təmiz qablaşdırma niyə vacibdir?</h3>
+                        <div class="blog-leftCardFooter">
+                            <p class="blog-detail">Daha ətraflı</p>
+                            <p class="blog-date">24-05-25</p>
+                        </div>
+                    </a>
+
+                    <a href="https://hesampaper.com/yenilikler/5-test-right-2.html" class="blog-rightCard"
+                        style="background-image: url('https://hesampaper.com/uploads/posts/2025-06/t08.jpg');">
+                        <h3>Xüsusi dizaynlı qutularla müştəri təəssüratını gücləndirin</h3>
+                        <div class="blog-leftCardFooter">
+                            <p class="blog-detail">Daha ətraflı</p>
+                            <p class="blog-date">24-05-25</p>
+                        </div>
+                    </a>
+
+                    <a href="https://hesampaper.com/yenilikler/4-test-blog-left.html" class="blog-rightCard"
+                        style="background-image: url('https://hesampaper.com/uploads/posts/2025-05/2a17bf149557801_6328c56a9f2cc.jpg');">
+                        <h3>Loqolu karton qutular satışları necə artırır?</h3>
+                        <div class="blog-leftCardFooter">
+                            <p class="blog-detail">Daha ətraflı</p>
+                            <p class="blog-date">24-05-25</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners-section">
+        <div class="partners-container">
+            <div class="partners-title">
+                <h1>Partnyorlar</h1>
+            </div>
+            <div class="partners">
+                <a class="PartnyorA" href="">
+                    <img src="./img/kartpak-logo-tesdiq-2018.jpg" alt="">
+                </a><a class="PartnyorA" href="">
+                    <img src="./img/screen_shot_2025-06-02_at_11_23_33-removebg-preview.png" alt="">
+                </a><a class="PartnyorA" href="">
+                    <img src="./img/screen_shot_2025-06-02_at_11_21_00-removebg-preview.png" alt="">
+                </a><a class="PartnyorA" href="">
+                    <img src="./img/screen_shot_2025-06-02_at_11_19_29-removebg-preview.png" alt="">
+                </a><a class="PartnyorA" href="">
+                    <img src="./img/asset-4.png" alt="">
+                </a><a class="PartnyorA" href="">
+                    <img src="./img/screen_shot_2025-06-02_at_11_12_27-removebg-preview.png" alt="">
+                </a><a class="PartnyorA" href="">
+                    <img src="./img/screen_shot_2025-06-02_at_11_06_44-removebg-preview.png" alt="">
+                </a><a class="PartnyorA" href="">
+                    <img src="./img/screen_shot_2025-06-02_at_11_04_17-removebg-preview.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="faq">
+        <div class="sec-container">
+            <h2 class="sec_title">Tez-tez verilən suallar</h2>
+            <div class="flex pt-4">
+                <div class="f66">
+                    <div class="resources-items">
+
+                        <div class="resources-item-wrapper">
+                            <a class="resources-item link link-hover-red">Niyə məhz HESAM PAPER-i seçməliyik?</a>
+                            <div class="description">
+                                Yüksək Keyfiyyət: Keyfiyyətli xammal və dəqiq istehsal nəzarəti Geniş Məhsul Seçimi:
+                                Müxtəlif sahələr üçün uyğun sərt karton növləri Müştəri Dəstəyi: Texniki dəstək və satış
+                                sonrası xidmətlər
+                            </div>
+                        </div>
+
+                        <div class="resources-item-wrapper">
+                            <a class="resources-item link link-hover-red">Məhsullarınız beynəlxalq standartlara cavab
+                                verirmi?</a>
+                            <div class="description">
+                                Bəli. Məhsullarımız beynəlxalq keyfiyyət standartlarına uyğun şəkildə, qabaqcıl
+                                texnologiyalar və sertifikatlı xammaldan istifadə edilərək istehsal olunur.
+                            </div>
+                        </div>
+
+                        <div class="resources-item-wrapper">
+                            <a class="resources-item link link-hover-red">Minimum sifariş həcmi nə qədərdir?</a>
+                            <div class="description">
+                                Minimum sifariş həcmi müştərinin tələbinə və karton növünə görə dəyişə bilər. Ətraflı
+                                məlumat üçün bizimlə birbaşa əlaqə saxlamağınız tövsiyə olunur.
+                            </div>
+                        </div>
+
+                        <div class="resources-item-wrapper">
+                            <a class="resources-item link link-hover-red">Xüsusi sifarişlər qəbul olunurmu?</a>
+                            <div class="description">
+                                Bəli, müştərinin istəklərinə uyğun xüsusi ölçü, forma və texniki tələblərlə sifarişlər
+                                qəbul olunur. İstehsalat prosesində tam çeviklik təmin edilir.
+                            </div>
+                        </div>
+
+                        <div class="resources-item-wrapper">
+                            <a class="resources-item link link-hover-red">Sifarişlər necə və nə qədər müddətə
+                                çatdırılır?</a>
+                            <div class="description">
+                                Sifarişlərin çatdırılma müddəti məhsulun növü və sifarişin miqdarından asılıdır. Yerli
+                                çatdırılmalar adətən 3–7 iş günü ərzində, ixrac sifarişləri isə daha öncədən
+                                razılaşdırılmış qrafikə əsasən həyata keçirilir.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="footer-head">
+            <div class="foot-container">
+                <div class="row">
+
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-6" id="row-2">
+                        <div class="footer_phone-wrap text-white">
+                            <h4>
+                                Mobil
+                            </h4>
+                            <a href="tel:(+994 70) 870 31 99">(+994 70) 870 31 99</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 col-md-6 col-sm-6" id="row-3">
+                        <div class="footer_phone-wrap">
+                            <h4>
+                                Ünvan</h4>
+                            <span class="phone-wrap-address" href="#">Bakı şəh, Suraxanı ray, Zığ qəsəbəsi,Suraxanı
+                                yolu
+                                26V</span>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 col-sm-6" id="row-4">
+                        <div class="apply_for_footer">
+                            <button class="btn" type="button" name="apply">
+                                <div data-bs-toggle="modal" data-bs-target="#price-form">Sorğu göndər !</div>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="col-12" id="row-5">
+                        <div class="footer-menu">
+                            <ul class="footer_menu-list">
+                                <li class="footer_nav-item text-white">
+                                    <a href="/" data-hover="Ana Səhifə">Ana Səhifə</a>
+                                </li>
+                                <li class="footer_nav-item text-white">
+                                    <a href="/about/" data-hover="Tariximiz">Tariximiz</a>
+                                </li>
+                                <li class="footer_nav-item text-white">
+                                    <a href="/mehsullar/" data-hover="Məhsullar">Məhsullar</a>
+                                </li>
+                                <li class="footer_nav-item text-white">
+                                    <a href="/xidmetler/" data-hover="Xidmətlər">Xidmətlər</a>
+                                </li>
+                                <li class="footer_nav-item text-white">
+                                    <a href="/yenilikler/" data-hover="Yeniliklər">Yeniliklər</a>
+                                </li>
+                                <li class="footer_nav-item text-white">
+                                    <a href="/contact/" data-hover="Əlaqə">Əlaqə</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="foot-container">
+                <div class="row">
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-6" id="footer-row-1">
+                        <div class="footer-logo">
+                            <a href="/">
+                                <img src="./img/footer-logo.png" alt="Logo" width="200px" height="80px">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-6" id="footer-row-2">
+                        <div class="footer-copyright">
+                            <p>©
+                                <script>document.write(new Date().getFullYear());</script> 2025 Hesam Paper
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-6" id="footer-row-3">
+                        <div class="footer-siteby">
+                            <a href="https://okmedia.az/">Sayt Müəllifi -
+                                <img src="./img/okmedia.png" alt="Ok Media">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-6" id="footer-row-4">
+                    <div class="footer-social-media">
+  <a href="https://www.youtube.com/" target="_blank" class="youtube" aria-label="YouTube">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube">
+  </a>
+  <a href="https://www.instagram.com/" target="_blank" class="instagram" aria-label="Instagram">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram">
+  </a>
+  <a href="https://www.facebook.com/" target="_blank" class="facebook" aria-label="Facebook">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook">
+  </a>
+  <a href="https://www.linkedin.com/" target="_blank" class="linkedin" aria-label="LinkedIn">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+  </a>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const closeBtn = document.querySelector('.close-btn');
+        const menu = document.querySelector('.menu');
+        const overlay = document.querySelector('.overlay');
+
+        function toggleMenu() {
+            menu.classList.toggle('show');
+            hamburger.classList.toggle('non-active');
+            closeBtn.classList.toggle('active');
+            overlay.classList.toggle('show');
+        }
+        const items = document.querySelectorAll('.resources-item-wrapper');
+
+        items.forEach(item => {
+            const desc = item.querySelector('.description');
+            desc.style.overflow = 'hidden';
+            desc.style.transition = 'max-height 0.4s ease';
+            desc.style.maxHeight = '0';
+
+            item.addEventListener('click', () => {
+                const isOpen = item.classList.contains('active');
+
+                items.forEach(i => {
+                    i.classList.remove('active');
+                    i.querySelector('.description').style.maxHeight = '0';
+                });
+
+                if (!isOpen) {
+                    item.classList.add('active');
+                    desc.style.maxHeight = desc.scrollHeight + 'px';
+                }
+            });
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
