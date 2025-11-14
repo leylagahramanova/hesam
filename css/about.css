@@ -20,8 +20,8 @@ h6 {
 .h1, h1 {
     font-size: calc(1.375rem + 1.5vw);
 }
-.h2, h2 {
-    font-size: calc(1.325rem + .9vw);
+.bg-black h2 {
+    font-size: calc(1.325rem + .8vw);
 }
 .h3, h3 {
     font-size: calc(1.3rem + .6vw);
@@ -151,6 +151,42 @@ h1{
   flex: 0 0 auto;
   width: 100%;
 }
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 auto !important;
+        width: 33.33333333% !important;
+    }
+
+     .col-md-7 {
+        flex: 0 0 auto !important;
+        width: 58.33333333% !important;
+    }
+
+}
+@media (max-width: 768px) {
+  .aboutPage .aboutPageLogo {
+    width: 100px;
+    left: 43%;
+    top: -35px;
+    z-index: 20;
+}
+}
+@media (max-width: 500px) {
+  .aboutPage .aboutPageLogo {
+    width: 100px;
+    left: 40%;
+    top: -35px;
+    z-index: 20;
+}
+}
+@media (max-width: 318px) {
+  .aboutPage .aboutPageLogo {
+    width: 100px;
+    left: 35%;
+    top: -35px;
+    z-index: 20;
+}
+}
 
 .gap-3 {
   gap: 1rem !important;
@@ -171,7 +207,7 @@ h1{
 }
 
 .justify-content-between {
-  justify-content: space-between !important;
+  justify-content: center !important;
 }
 
 .bg-black {
@@ -182,3 +218,29 @@ h1{
 .my-ab {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
+.myContainer {
+    max-width: 1200px;
+    margin: 0 20px;
+}
+.gap-5 {
+    gap: 3rem !important;
+}
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+.w-100 {
+    width: 100% !important;
+}
+.position-relative {
+    position: relative !important;
+}
+.d-flex {
+    display: flex !important;
+}
+
+

@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="../css/navfoot.css">
     <title>Sərt karton istehsalı/ karton istehsalı / karton istehsalı fabriki</title>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
-<style> 
+<style>
 
 </style>
 
@@ -20,41 +19,65 @@
             <div class="line">
                 <div class="hamburger" onclick="toggleMenu()"> ☰ </div>
                 <div class="close-btn" onclick="toggleMenu()">×</div>
-                <div class="logo"> <img src="../img/logo.png" alt="Logo"> </div>
+                <div class="logo"><a href="./home.html"> <img src="../img/logo.png" alt="Logo"></a> </div>
             </div>
             <nav> <a href="./home.html">Ana Səhifə</a>
-                <div class="dropdown"> <button class="dropbtn">Şirkət haqqında <span class="icon">▾</span></button>
+                <div class="dropdown">
+                    <button class="dropbtn">Şirkət haqqında <span class="icon">▾</span></button>
                     <div class="dropdown-content"> <a href="../indexes/about.html">Tariximiz</a> </div>
                 </div> <a href="#">Xidmətlər</a>
                 <div class="dropdown"> <button class="dropbtn">Məhsullar <span class="icon">▾</span></button>
                     <div class="dropdown-content"> <a href="#">Karton Seriyası</a> <a href="#">Tort Altlıqları</a> <a
                             href="#">Tort Qutuları</a> <a href="#">Metalized Seriya</a> <a href="#">Xroma Pet</a> <a
                             href="#">Balıq Altlıqları</a> </div>
-                </div> <a href="#">Yeniliklər</a> <a href="../indexes/contact.html">Əlaqə</a>
+                </div>
+                <a href="#">Yeniliklər</a> <a href="../indexes/contact.html">Əlaqə</a>
             </nav>
             <div class="info">
                 <div class="lang-select"> <a href="#">RU</a> | <a href="#">EN</a> </div>
                 <div class="phone">(+994 70) 870 31 99</div>
                 <div class="contact"> <i class="fa-solid fa-paper-plane"></i> <span>Sorğu göndər !</span> </div>
+            
             </div>
             <div class="menu">
-                <nav class="nav2"> <a href="#">Ana Səhifə</a>
-                    <div class="dropdown"> <button class="dropbtn">Şirkət haqqında <span class="icon">▾</span></button>
-                        <div class="dropdown-content"> <a href="#">- Tariximiz</a> </div>
-                    </div> <a href="#">Xidmətlər</a> <a href="#">Yeniliklər</a> <a href="#">Əlaqə</a>
+                <nav class="nav2"> <a href="./home.html">Ana Səhifə</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Şirkət haqqında <span class="icon">▾</span></button>
+                        <div class="dropdown-content"> <a href="../indexes/about.html">Tariximiz</a> </div>
+                    </div> <a href="#">Xidmətlər</a>
+                    <div class="dropdown"> <button class="dropbtn">Məhsullar <span class="icon">▾</span></button>
+                        <div class="dropdown-content"> <a href="#">Karton Seriyası</a> <a href="#">Tort Altlıqları</a>
+                            <a href="#">Tort Qutuları</a> <a href="#">Metalized Seriya</a> <a href="#">Xroma Pet</a> <a
+                                href="#">Balıq Altlıqları</a> </div>
+                    </div>
+                    <a href="#">Yeniliklər</a> <a href="../indexes/contact.html">Əlaqə</a>
+                    <div class="contacts">
+                        <div id="tel">(+994 70) 870 31 99</div>
+                        <div class="contact"> <i class="fas fa-paper-plane"></i> <span>Sorğu göndər !</span> </div>
+                    </div>
                 </nav>
-                <div class="contacts">
-                    <div id="tel">(+994 70) 870 31 99</div>
-                    <div class="contact"> <i class="fas fa-paper-plane"></i> <span>Sorğu göndər !</span> </div>
-                </div>
+
             </div>
             <div class="overlay" onclick="toggleMenu()"></div>
             <div class="info2">
                 <div class="lang-select"> <a href="#">RU</a> | <a href="#">EN</a> </div>
             </div>
         </div>
-    </header>
-        <script src="../script.js"></script>
-    </body>
-    </html>
-    
+       
+    </header>     <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Qiymət təklifi</h2>
+
+                        <form>
+                            <input type="text" placeholder="Ad, Soyad" required>
+                            <input type="tel" placeholder="Telefon nömrəniz" required>
+                            <textarea placeholder="Qeydləriniz"></textarea>
+                            <button type="submit">Göndər</button>
+                        </form>
+                    </div>
+                </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

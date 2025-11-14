@@ -122,37 +122,9 @@
         </div>
 
     </footer>
-     <script src="../script.js"></script>
+
        <script>
-     function loadPage(page) {
-      fetch(page)
-        .then(res => res.text())
-        .then(data => {
-          document.querySelector('#content').innerHTML = data;
-          window.scrollTo(0, 0);
-        })
-        .catch(err => {
-          document.querySelector('#content').innerHTML = "<p>Səhifə tapılmadı.</p>";
-        });
-    }
 
-    // Handle navigation clicks
-    document.addEventListener('click', e => {
-      const link = e.target.closest('.nav-link');
-      if (!link) return;
-      e.preventDefault();
-      const page = link.getAttribute('data-page');
-      loadPage(page);
-
-      // Update active link
-      document.querySelectorAll('.nav-link').forEach(a => a.classList.remove('active'));
-      link.classList.add('active');
-    });
-
-    // Load default page on start
-    window.addEventListener('DOMContentLoaded', () => {
-      loadPage('./home.html');
-    });
   </script>
 </body>
 

@@ -259,15 +259,17 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0);
-  transition: background-color 0.5s ease;
+  transition: background-color 0.8s ease;
   z-index: 1;
 }
 
-.slide.active::before {
-  background-color: rgba(0, 0, 0, 0.4);
+.slide::before {
+  background-color: rgba(0,0,0,0.4); /* transparent by default */
+  z-index: 1; /* below content */
 }
-
+.slide.active::before {
+  background-color: rgba(0,0,0,0.4); /* visible overlay */
+}
 .slide.active {
   opacity: 1;
   z-index: 1;
@@ -288,6 +290,17 @@ body {
   z-index: 2;
 }
 
+@media (max-width: 768px) {
+
+.content {
+  position: absolute;
+  bottom: 20%;
+  left: 2%;
+  color: white;
+  z-index: 2;
+}
+
+}
 .content p {
   margin-top: 15px;
   font-size: 18px;
