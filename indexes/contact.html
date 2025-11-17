@@ -9,13 +9,13 @@
 
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/contact.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <title>Sərt karton istehsalı/ karton istehsalı / karton istehsalı fabriki</title>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 
 <body>
     <div id="navbar"></div>
-    <div class="w-100 d-flex justify-content-center DetailBg" style="background-image: url('/assets/img/banner.png');">
+    <div class="w-100 d-flex justify-content-center DetailBg">
         <div class="detailOverlay"></div>
         <div class="myContainer d-flex flex-column align-items-center justify-content-center gap-3 w-100">
             <h1 title="производство твердого картона,производство картона, производство картона в Азербайджане завод по производству картона,Высечка картона,Ламинирование"
@@ -35,7 +35,6 @@
             <style>
                 #map {
                     height: 500px;
-                    padding-top: 1.5rem;
                 }
             </style>
             <div class="container-contacts mt-5">
@@ -218,15 +217,7 @@
                                             });
                                         });
                                     });
-                                    document.querySelectorAll('.btn-close-6').forEach(button => {
-                                        button.addEventListener('click', () => {
-                                            const targetElement = document.getElementById('response6');
-                                            if (targetElement) {
-                                                targetElement.textContent = ''; // удаляет текст
-                                                targetElement.classList.remove('active'); // удаляет класс active
-                                            }
-                                        });
-                                    });
+                             
 
                                 </script>
                             </div>
@@ -285,7 +276,6 @@
                 #map {
                     width: 100%;
                     height: 500px;
-                    margin-top: 2rem;
                     border-radius: 8px;
                     overflow: hidden;
                     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -298,7 +288,6 @@
                 }
             </style>
 
-            <script src="https://api-maps.yandex.ru/2.1/?lang=az_AZ" type="text/javascript">
             </script>
             <script type="text/javascript">
                 let center = [40.3889078, 50.0086569];
@@ -310,8 +299,6 @@
                     });
 
                     let placemark = new ymaps.Placemark(center, {}, {
-                        iconLayout: 'default#image',
-                        iconImageHref: '/assets/img/markeryeni.png',
                         iconImageSize: [61, 77],
                         iconImageOffset: [-42, -65]
                     });
